@@ -7,6 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Ignore node_modules for both frontend and backend
+student-alumni-frontend/node_modules/
+student-alumni-backend/node_modules/
+
+# Optional - ignore build artifacts and env files
+dist/
+.env
+.DS_Store
+*.log
+
 node_modules
 dist
 dist-ssr
